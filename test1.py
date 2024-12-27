@@ -9,7 +9,7 @@ def josephus_math(n, m):
     return pos + 1
 
 # 示例调用
-n = 7  # 环中的人数
-m = 3  # 报数的步长
+n = 150  # 环中的人数
+m = 130  # 报数的步长
 last = josephus_math(n, m)
 print(f"最后剩下的人的编号是: {last}")
